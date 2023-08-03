@@ -6,7 +6,7 @@
     <metahttp-equiv = 'cache-control' content = 'no-cache'>
     <metahttp-equiv = 'expires' content = '0'>
     <metahttp-equiv = 'pragma' content = 'no-cache'>
-	<title>ITSA </title>
+	<title>ITSA</title>
     
 	<!-- Favicon
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
