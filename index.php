@@ -6,7 +6,7 @@
     <metahttp-equiv = 'cache-control' content = 'no-cache'>
     <metahttp-equiv = 'expires' content = '0'>
     <metahttp-equiv = 'pragma' content = 'no-cache'>
-	<title>ITSA </title>
+	<title>ITSA</title>
     
 	<!-- Favicon
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -31,7 +31,7 @@
 <div id="popup" class="popup">
 		<div class="popup-content">
 			<span class="close">&times;</span>
-			<img src="./2022_2023_events/cloud_computing_poster.png" alt="Poster Image">
+			<img src="./2023-2024_events/ethics_seminar.jpeg" alt="Poster Image">
 		</div>
 	</div>
     
@@ -492,7 +492,7 @@
         <ul id="autoWidth" class="cs-hidden">
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/pachi_maam_hod.png" class="model" alt="">
+                    <img src="./clg images/prachi raut.png" class="model" alt="">
                     <div class="details">
                         <h4>Dr. Prachi Raut</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>HOD INFT</p></a>
@@ -501,62 +501,61 @@
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="grinalmaam.jpeg" class="model" alt="">
+                    <img src="./clg images/Prajyoti.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms. Grinal Tuscano</h4>
+                        <h4>Ms. Pratjyoti D'silva</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Co-ordinator</p></a>
                     </div>
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/shree.png" class="model" alt="">
+                    <img src="./clg images/Shree J.JPG" class="model" alt="">
                     <div class="details">
-                        <h4>Mrs.Shree Jaswal</h4>
+                        <h4>Ms.Shree Jaswal</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Co-ordinator</p></a>
                     </div>
                 </div>
             </li>
             <li class="item-a">
                 <div class="box"><!--https://drive.google.com/uc?export=download&id=1me6gHXzdpqu1-GGvBt8C7mPsab7KCMCK-->
-                    <img src="./clg images/nidhi_sawant_prsdnt.png"  class="model" alt="">
+                    <img src="./clg images/krishnal.jpg"  class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Nidhi Sawant</h4>
+                        <h4>Mr. Krishnal Deskhmukh </h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>President</p></a>
                     </div>
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/prathamesh_vp.jpg" class="model" alt="">
+                    <img src="./clg images/bibin.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Prathamesh Upadhye</h4>
+                        <h4>Mr. Bibin John </h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Vice-President</p></a>
                     </div>
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/rahul_biya.png" class="model" alt="">
+                    <img src="./clg images/vighnesh.JPG" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Rahul Biya</h4>
+                        <h4>Mr. Vighnesh Mestry</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Technical Head</p></a>
                     </div>
                     
                 </div>
             </li>
-       <!--no post 
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/NehaStanley_CreativeHead.jpg" class="model" alt="">
+                    <img src="./clg images/welshia.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Neha Stanley</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Creative Head</p></a>
+                        <h4>Ms. Welshia Aranha</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Design Head</p></a>
                     </div>
                     
                 </div>
             </li>
-            -->
+           
             
             <!-- no post
             <li class="item-a">
@@ -572,25 +571,26 @@
 -->
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/vinit.jpg" class="model" alt="">
+                    <img src="./clg images/alisha.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Vinit Bhamare</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Public Relation Head</p></a>
+                        <h4>Ms. Alisha Pereira </h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>PR & Social Media Head</p></a>
                     </div>
                     
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/Anshu.jpg" class="model" alt="">
+                    <img src="./clg images/bhavik.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Anshu Tiwari</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Finance Head</p></a>
+                        <h4>Mr. Bhavik Panchal </h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Finance & Marketing Head</p></a>
                     </div>
                     
                 </div>
             </li>
-            <li class="item-a">
+            <!-- no post
+                <li class="item-a">
                 <div class="box">
                     <img src="./clg images/neha.jpeg" class="model" alt="">
                     <div class="details">
@@ -599,12 +599,12 @@
                     </div>
                     
                 </div>
-            </li>
+            </li> -->
             <li class="item-a">
                 <div class="box">
-                    <img src="clg images/evet.jpeg" class="model" alt="">
+                    <img src="clg images/vinita.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Evet Fernandes</h4>
+                        <h4>Ms. Vinita More </h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Documentation Head<p></a>
                     </div>
                     
@@ -612,19 +612,19 @@
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/paria.jpg" class="model" alt="">
+                    <img src="./clg images/Rajan.png" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Shashank Paria</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Web Master</p></a>
+                        <h4>Mr. Rajan Jha</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Web Master Head</p></a>
                     </div>
                     
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/aaron.png" class="model" alt="">
+                    <img src="./clg images/allister.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Aaron Fernandes</h4>
+                        <h4>Mr. Allister Fernandes</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Technical Executives<p></a>
                         
                     </div>
@@ -633,9 +633,9 @@
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/vighnesh.jpg" class="model" alt="">
+                    <img src="./clg images/bhargav.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Vignesh Mestry</h4>
+                        <h4>Mr. Bhargav Mhatre</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Technical Executives</p></a>
                     </div>
                     
@@ -643,53 +643,30 @@
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/ritu.jpg" class="model" alt="">
+                    <img src="./clg images/deep.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Ritu Pawaskar</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Creative Executives</p></a>
+                        <h4>Mr. Deep Parulekar</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Technical Executives</p></a>
                     </div>
                     
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/mustafiz.jpg" class="model" alt="">
+                    <img src="./clg images/yash.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Mustafiz Ansari </h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Creative Executives</p></a>
-                    </div>
-                    
-                </div>
-            </li>
-
-            <li class="item-a">
-                <div class="box">
-                    <img src="./clg images/welshia.jpg" class="model" alt="">
-                    <div class="details">
-                        <h4>Ms.Welshia Aranha </h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Creative Executives</p></a>
-                    </div>
-                    
-                </div>
-            </li>
-
-
-            <li class="item-a">
-                <div class="box">
-                    <img src="./clg images/krishnal.jpeg" class="model" alt="">
-                    <div class="details">
-                        <h4>Mr.Krishnal Deshmukh</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Public Relation Executives</p></a>
+                        <h4>Mr. Yash Kotian </h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Technical Executives</p></a>
                     </div>
                     
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/alisha_pereira.jpg" class="model" alt="">
+                    <img src="./clg images/aaron.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Alisha Pereira</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Public Relation Executive</p></a>
+                        <h4>Mr. Aaron Vaz </h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Design Executives</p></a>
                     </div>
                     
                 </div>
@@ -697,10 +674,10 @@
 
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/priya_jain.jpg" class="model" alt="">
+                    <img src="./clg images/styris.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Priya Jain </h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Public Relation Executive</p></a>
+                        <h4>Mr. Styris Dcruz</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Design Executives</p></a>
                     </div>
                     
                 </div>
@@ -708,49 +685,108 @@
 
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/varad_rao.jpg" class="model" alt="">
+                    <img src="./clg images/shruti.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Varad Rao</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Finance Executives </p></a>
+                        <h4>Ms. Shruti Patani</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Design Executives</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/kevin.jpg" class="model" alt="">
+                    <div class="details">
+                        <h4>Mr. Kevin Nadar</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Design Executives</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+
+
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/chris.jpeg" class="model" alt="">
+                    <div class="details">
+                        <h4>Mr. Chris Shukla</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>PR & Social Media Executives</p></a>
                     </div>
                     
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/stalein.jpg" class="model" alt="">
+                    <img src="./clg images/ansh.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Stalen Ferriera</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Finance Executives </p></a>
+                        <h4>Mr. Ansh Shetty</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>PR & Social Media Executives</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/sujal.jpg" class="model" alt="">
+                    <div class="details">
+                        <h4>Mr. Suraj Virani</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>PR & Social Media Executives</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/stash.jpg" class="model" alt="">
+                    <div class="details">
+                        <h4>Mr. Stash Lopes</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>PR & Social Media Executives</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/vishal.jpeg" class="model" alt="">
+                    <div class="details">
+                        <h4>Mr. Vishal Mahajan</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Finance & Marketing Executives </p></a>
                     </div>
                     
                 </div>
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/mihika.png" class="model" alt="">
+                    <img src="./clg images/druva.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Mihika Manjrekar</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Social Media Executive</p></a>
+                        <h4>Ms. Durva Kadam</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Finance & Marketing Executives </p></a>
                     </div>
                     
                 </div>
             </li>
+
+            <!-- todo -->
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/sherin_new_pic.jpg" class="model" alt="">
+                    <img src="./clg images/joel.jpeg" class="model" alt="">
                     <div class="details">
-                        <h4>Ms.Sherin Parmar</h4>
-                        <a href="./roles.pdf" style="text-decoration:none;"><p>Social Media Executive</p></a>
+                        <h4>Mr. Joel Kathi</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Finance & Marketing Executives </p></a>
                     </div>
                     
                 </div>
             </li>
+            
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/bibin.jpg" class="model" alt="">
+                    <img src="./clg images/vibhasha.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Bibin John</h4>
+                        <h4>Ms. Vibhasha Nagvekar</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Documentation Executive</p></a>
                     </div>
                     
@@ -758,9 +794,40 @@
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/chris.jpg" class="model" alt="">
+                    <img src="./clg images/kruti.png" class="model" alt="">
                     <div class="details">
-                        <h4>Mr.Chris Dias</h4>
+                        <h4>Ms. Kruti Bagwe</h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Documentation Executive</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/adelle.jpg" class="model" alt="">
+                    <div class="details">
+                        <h4>Ms. Adelle D'Souza </h4>
+                        <a href="./roles.pdf" style="text-decoration:none;"><p>Documentation Executive</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/ajaykumar.jpg" class="model" alt="">
+                    <div class="details">
+                        <h4>Mr. Ajaykumar Nadar</h4>
+                        <a href="https://ajaykumarn3000.github.io/portfolio" style="text-decoration:none;"><p>Web Master Executive</p></a>
+                    </div>
+                    
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="./clg images/varad.jpg" class="model" alt="">
+                    <div class="details">
+                        <h4>Mr. Varad Khedekar</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Web Master Executive</p></a>
                     </div>
                     
