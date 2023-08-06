@@ -156,7 +156,7 @@
                 <P>( I T S A )</P>
                 <div class="row">
                     <div class="col-12 col-sm-6">
-                        <img style="width:100%;" src="./clg images/grp_pic_welcome_event_2023.png" alt="team">
+                        <img style="width:100%;" src="./2023-2024_events/img/team.JPG" alt="team">
                     </div>
                     <div class="col-12 col-sm align-self-center">
                         <P align="left"><strong>ITSA</strong> is a departmental organization for Information Technology.<br>Founded in the year 2011-12, our committe organizes events to bridge the gap between classroom edducation and the technical skills required by students to be industry ready.</P>
@@ -245,55 +245,50 @@
                             <br>
                             <div class="row row-content">
                                 <div class="col-4 col-sm">
-                                    <img src="./2022_2023_events/images/welcome_farewell/welcome2.PNG" class="img-slide" alt="">
+                                    <img src="./2023-2024_events/img/farewell.JPG" class="img-slide" alt="">
                                 </div>
                                 <div class="col-sm-8 align-self-center d-none d-sm-block">
-                                    <p id="description" align="left"><span>*</span>As a part of Academic Activity of “ ITSA” of the INFT Department,
-                                     the Welcome and Farewell Program
-                                     for the newly inducted and previous committee members was arranged on 6th August 2022. <br><br><span>*</span>The previous committee was appreciated and honoured for their work
-                                      throughout the year 2021-2022 and the new committee
-                                       for 2022-2023 was brought into action. <br><br><span>*</span>The welcome and farewell ceremony was the first event of the newly elected ITSA team.
-                                        On this special day, Our HOD Ma’am Dr. Joanne Gomes was the chief guest.</p>
+                                    <p id="description" align="left"><span>*</span>Welcome event for ITSA members included a memorable farewell for the previous heads along with Ms. Grinal Dsouza and a wonderful beginning for the newly joined executives and appointed heads.
+                                    <br><br><span>*</span>The previous committee was appreciated and honoured for their work
+                                      throughout the year 2022-2023 and the new committee
+                                       for 2023-2024 was brought into action. <br><br><span>*</span>The welcome and farewell ceremony was the first event of the newly elected ITSA team and was arranged on 25th July 2023.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="col-12 col-sm"> 
-                                <h3>Career Preparedness: Resume & Interview skills workshop</h3>
-                            </div>
+                                <h3>Data Governance Seminar</h3>
+                            </div>  
                             <br>
                             <div class="row row-content">
                                 <div class="col-12 col-sm">
-                                    <img src="./2022_2023_events/images/webinar/resume1.PNG" class="img-slide"  alt="">
+                                    <img src="./2023-2024_events/img/data_governance.jpg" class="img-slide"  alt="">
                                 </div>
                                 <div class="col-sm-8 align-self-center d-none d-sm-block">
-                                    <p id="description" align="left"><span>*</span>As a part of Academic Activity of “ ITSA” of the INFT Department,
-                                     a webinar on Career Preparedness: Resume Writing & Interview Skills
-                                      was arranged on 27th August 2022.<br><br><span>*</span>The session was led by our very own faculty member Ms. Eden Fernandes.
-                                       <br><br><span>*</span>The webinar focused on preparing our students
-                                         for creating an impressive resume and to excel in their job interviews.</p>
+                                    <p id="description" align="left"><span>*</span>The Data governance seminar, conducted by Mr Akshay Dhingra, was arranged for the BE IT students to give them insights about the importance of data as well as data governance and how data is used in the corporate industry.<br><br>
+                                        <span>*</span>Mr Dhingra also talked about the various career opportunities and major scopes in the field of data governance.
+                                       <br><br><span>*</span>The interactive session was concluded with an insightful Q&A.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="col-12 col-sm"> 
-                                 <h3>Debate Competition</h3>
+                                 <h3>Ethics Seminar & Poster making competition</h3>
                             </div>
                             <br>
                             <div class="row row-content">
                                 <div class="col-12 col-sm">
-                                    <img src="./2022_2023_events/images/debate/debate1.PNG" class="img-slide" alt="">
+                                    <img src="./2023-2024_events/img/ethics_Seminar.JPG" class="img-slide" alt="">
                                 </div>
                                 <div class="col-sm-8 align-self-center d-none d-sm-block">
-                                    <p id="description" align="left"><span>*</span>As a part of Academic Activity of “ ITSA” of the INFT Department,
-                                     Tug OfWords: An Intra-College Debate competition was organized for all the students of SFIT
-                                      on 8th September 2022.<br><br><span>*</span>The session was led by our very own team with the help of our ITSA Coordinators
-                                       Mrs Grinal Tuscano and Mrs Shree Jaswal.<br><br><span>*</span>The debate competition was arranged to provide our students with the platform
-                                        to raise their opinions and improve rigorous higher-order and critical thinking skills.</p>
+                                    <p id="description" align="left"><span>*</span>The Ethics Seminar, conducted by Mr. Praveen Kurien, was held for all the SE IT students. The necessity of this seminar as per his talk was in order to become humble engineers and responsible citizens of this nation proper ethics are necessary.<br><br>
+                                        <span>*</span>We must begin being ethical right from our classrooms and only then we may move to the further levels.<br><br>
+                                        <span>*</span>The event was concluded with a poster making competition comprising of cash prizes.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <!-- <div class="carousel-item">
                             <div class="col-12 col-sm"> 
                                 <h3>Seminar on STUDY ABROAD</h3>
                             </div>
@@ -309,8 +304,8 @@
                                        all the requirements for studying abroad.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
+                        </div> -->
+                        <!-- <div class="carousel-item">
                             <div class="col-12 col-sm"> 
                             <h3>Mosaic Fest: Tech Cave</h3>
                             </div>
@@ -328,7 +323,7 @@
                                     which would help our students to utilize their technical skills.  </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="carousel-item">
                             <div class="col-12 col-sm"> 
                                 <h3>Software Testing Webinar</h3>
@@ -731,7 +726,7 @@
                 <div class="box">
                     <img src="./clg images/sujal.jpg" class="model" alt="">
                     <div class="details">
-                        <h4>Mr. Suraj Virani</h4>
+                        <h4>Mr. Sujal Virani</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>PR & Social Media Executives</p></a>
                     </div>
                     
@@ -825,7 +820,7 @@
             </li>
             <li class="item-a">
                 <div class="box">
-                    <img src="./clg images/varad.jpg" class="model" alt="">
+                    <img src="./clg images/varad.jpeg" class="model" alt="">
                     <div class="details">
                         <h4>Mr. Varad Khedekar</h4>
                         <a href="./roles.pdf" style="text-decoration:none;"><p>Web Master Executive</p></a>
