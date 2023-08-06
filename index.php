@@ -28,12 +28,13 @@
 </head>
 <body id='body'>
         
-<div id="popup" class="popup">
-		<div class="popup-content">
-			<span class="close">&times;</span>
-			<img src="./2023-2024_events/ethics_seminar.jpeg" alt="Poster Image">
-		</div>
-	</div>
+    <!-- POPUP -->
+<!-- <div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close">&times;</span>
+        <img src="./2023-2024_events/ethics_seminar.jpeg" alt="Poster Image">
+    </div>
+</div> -->
     
 
     <!-- As a link -->
@@ -880,7 +881,7 @@
             </div>
             <div>
                 <i class="fa fa-phone"></i>
-                <p>Nidhi- +91 7715958368 <br>Prathamesh- +91 9137887904</p>
+                <p>Krishnal - +91 7028118266 <br>Bibin- +91 9969289034</p>
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
