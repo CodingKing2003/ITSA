@@ -1,6 +1,38 @@
 ul{
     list-style: none;
   }
+#core1,
+#tech1,
+#design1,
+#social,
+#marketing,
+#docs,
+#web{
+  display: none;
+  flex-direction: row;
+  overflow: auto;
+  list-style: none;
+
+}
+
+.div-one{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  list-style: none;
+}
+
+.navbar1 li a{
+  color: white;
+  text-decoration: none;
+  padding: 32px 23px;
+}
+.navbar1 li{
+  display: inline-block;
+}
+.navbar1 li a:hover{
+  color: rgb(233, 167, 167);
+}
   a{
     text-decoration: none;
   }
