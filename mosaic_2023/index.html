@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>ITSA X MOSAIC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        document.querySelector("#retrobg-sun").onClick = () => {
+            document.querySelector("#retrobg").classList.toggle("retrobg-shutdown");
+        };
+    </script>
+
+    <script>
+        var sample = document.getElementById('aud');
+        sample.play();
+    </script>
+
+    <link rel="stylesheet" href="texteffect.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="timer.css">
+    <link rel="stylesheet" href="typingeffect.css">
+    <script src="typingeffect.js"></script>
+    <link rel="stylesheet" href="floatinganimation.css">
+    <link rel="stylesheet" href="vrgaming.css">
+    <link rel="stylesheet" href="programmer.css">
+    <link rel="stylesheet" href="stage.css">
+    <script src="audio.js"></script>
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./downregistrationbutton.css">
+    <link rel="stylesheet" href="./welcome.css">
+
+
+    <!--footer-->
+    <link rel="stylesheet" href="./footer/lightslider.css">
+    <link rel="stylesheet" href="./footer/styles.css">
+    <script src="./footer/main.js"></script>
+    <script src="./footer/LightSlider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body style="background-color: rgb(10, 0, 10); overflow-x: hidden;" onload="sample()">
+    <div id="bodysize" style="height: 2000px; width: 100%;">
+
+        <!--navbar-->
+
+        <nav class="navbar navbar-expand-lg " style="background-color: rgb(34,17,68);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 200%; color:rgb(255, 255, 255);">
+                    <img src="./assets/logo-modified.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> ITSA X MOSAIC <img src="./assets/sfitlogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" style="margin-left: 60%;">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="#retrobg" target="_blank">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events" style="color:white; font-family: sans-serif; font-weight: bold;">events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="#sponsor us">sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="https://itsa.sfit.ac.in/" target="_blank">about us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--background animation-->
+
+        <div id="retrobg">
+            <div id="retrobg-sky" style="z-index: 0;">
+
+                <div id="retrobg-stars">
+                    <span><p id="timer" style="color: white;"></p></span>
+                    <div class="retrobg-star" style="left:  5%; top: 55%; transform: scale( 2 );"></div>
+                    <div class="retrobg-star" style="left:  7%; top:  5%; transform: scale( 2 );"></div>
+                    <div class="retrobg-star" style="left: 10%; top: 45%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 12%; top: 35%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 15%; top: 39%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 20%; top: 10%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 35%; top: 50%; transform: scale( 2 );"></div>
+                    <div class="retrobg-star" style="left: 40%; top: 16%; transform: scale( 2 );"></div>
+                    <div class="retrobg-star" style="left: 43%; top: 28%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 45%; top: 30%; transform: scale( 3 );"></div>
+                    <div class="retrobg-star" style="left: 55%; top: 18%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 60%; top: 23%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 62%; top: 44%; transform: scale( 2 );"></div>
+                    <div class="retrobg-star" style="left: 67%; top: 27%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 75%; top: 10%; transform: scale( 2 );"></div>
+                    <div class="retrobg-star" style="left: 80%; top: 25%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 83%; top: 57%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 90%; top: 29%; transform: scale( 2 );"></div>
+                    <div class="retrobg-star" style="left: 95%; top:  5%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 96%; top: 72%; transform: scale( 1 );"></div>
+                    <div class="retrobg-star" style="left: 98%; top: 70%; transform: scale( 3 );"></div>
+                </div>
+                <div id="retrobg-sunWrap">
+                    <div id="retrobg-sun"></div>
+                </div>
+
+
+                <div id="retrobg-mountains">
+                    <div id="retrobg-mountains-left" class="retrobg-mountain"></div>
+                    <div id="retrobg-mountains-right" class="retrobg-mountain"></div>
+                    <!--college name and it department-->
+
+                    <div id="welcome">
+                        <p style="text-align: center; align-items: center;">
+                            <span><h1 style="display: inline;" class="glow">SFIT</h1></span>
+                            <span class="glow">ITSA</span>
+                            <span><h1 style="" class="glow">IT DEPARTMENT presents</h1></span>
+                        </p>
+                    </div>
+
+                    <div id="box">
+
+
+                        <p id="flashlight">
+
+                            <span id="flash">MOSAIC</span>
+
+                            <span class="glow">2023</span>
+                            <!-- <h1 class="glow">GLOWING TEXT</h1> -->
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- <div id="retrobg-cityWrap">
+                <div id="retrobg-city">
+                    <div style="left:  4.0%; height: 20%; width: 3.0%;" class="retrobg-building"></div>
+                    <div style="left:  6.0%; height: 50%; width: 1.5%;" class="retrobg-building"></div>
+                    <div style="left:  8.0%; height: 25%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 12.0%; height: 30%; width: 3.0%;" class="retrobg-building"></div>
+                    <div style="left: 13.0%; height: 55%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 17.0%; height: 20%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 18.5%; height: 70%; width: 1.5%;" class="retrobg-building"></div>
+                    <div style="left: 20.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 21.5%; height: 80%; width: 2.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 25.0%; height: 60%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 28.0%; height: 40%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 30.0%; height: 70%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 35.0%; height: 65%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 38.0%; height: 40%; width: 3.0%;" class="retrobg-building"></div>
+                    <div style="left: 42.0%; height: 60%; width: 2.0%;" class="retrobg-building"></div>
+                    <div style="left: 43.0%; height: 85%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 45.0%; height: 40%; width: 3.0%;" class="retrobg-building"></div>
+                    <div style="left: 48.0%; height: 25%; width: 3.0%;" class="retrobg-building"></div>
+                    <div style="left: 50.0%; height: 80%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 52.0%; height: 32%; width: 5.0%;" class="retrobg-building"></div>
+                    <div style="left: 55.0%; height: 55%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 58.0%; height: 45%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 61.0%; height: 90%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 66.0%; height: 99%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 69.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 73.5%; height: 90%; width: 2.0%;" class="retrobg-building"></div>
+                    <div style="left: 72.0%; height: 70%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 75.0%; height: 60%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 80.0%; height: 40%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 83.0%; height: 70%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 87.0%; height: 60%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
+                    <div style="left: 93.0%; height: 50%; width: 3.0%;" class="retrobg-building"></div>
+                    <div style="left: 91.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
+                    <div style="left: 94.0%; height: 20%; width: 3.0%;" class="retrobg-building"></div>
+                    <div style="left: 98.0%; height: 35%; width: 2.0%;" class="retrobg-building"></div>
+                </div>
+            </div> -->
+            </div>
+            <!--typing effect of text-->
+            <div id="cave">
+                <span class="welcome glow">WELCOME TO TECH CAVE</span>
+            </div>
+
+            <div id="retrobg-ground">
+
+
+
+                <div id="retrobg-linesWrap">
+
+                    <div id="retrobg-lines">
+                        <div id="retrobg-vlines">
+
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                            <div class="retrobg-vline"></div>
+                        </div>
+                        <div id="retrobg-hlines">
+                            <div class="retrobg-hline"></div>
+                            <div class="retrobg-hline"></div>
+                            <div class="retrobg-hline"></div>
+                            <div class="retrobg-hline"></div>
+                            <div class="retrobg-hline"></div>
+                            <div class="retrobg-hline"></div>
+                            <div class="retrobg-hline"></div>
+                            <div class="retrobg-hline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="retrobg-groundShadow"></div>
+            </div>
+            <br>
+
+            <!--end of bg effect-->
+        </div>
+
+
+        <!--grid for events list-->
+        <div class="textforevents" id="events">
+            <h1>EVENTS ORGANIZED BY ITSA</h1>
+        </div>
+
+        <!-- TODO -->
+        <!--registration button-->
+        <!-- <button class="register">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" style="color:white;">Pre-Register</a> 
+   </button> -->
+
+
+
+        <div class="container text-center">
+            <div class="row gx-5 gy-5">
+                <div class="col-sm-6">
+
+                    <div>
+                        <br><br><br>
+                        <div class="main-div main-div2">
+                            <h1 class="round">RC Car Racing</h1>
+                        </div>
+                        <h2 style="color:white;">( F1-Themed ) <br></h2>
+                        <h3 style="color:white;">A meticulously crafted racecourse, adorned with F1-inspired elements and design, serving as the battleground for RC car enthusiasts from across Mumbai. </h3>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <br><br><br>
+                    <img src="./assets/abstract-gaming.gif" alt="">
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row gx-5 gy-5">
+                <div class="col-sm-6">
+                    <br><br><br>
+                    <img style="margin-right: 20%;" id="subway" src="./assets/subwaysurfer.png" alt="">
+
+                </div>
+                <div class="col-sm-6">
+                    <div>
+                        <br><br><br><br><br>
+                        <div class="main-div main-div2">
+                            <h1 class="round">Forza Racing</h1>
+                        </div>
+                        <!-- <h2 style="color:white;"> </h2> -->
+                        <h3 style="color:white;">The immersive combination of Logitech's precision and the thrill of Forza will redefine the concept of virtual racing.</h3>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row gx-5 gy-5">
+                <div class="col-sm-6">
+
+                    <div>
+                        <br>
+                        <div class="main-div main-div2">
+                            <h1 class="round">Intellectual Prowess</h1>
+                        </div>
+                        <!-- <h2 style="color:white;"> (CODING CHALLENGE)</h2> -->
+                        <h3 style="color:white;">These challenges, rooted in the F1 universe or coding concepts, will test participants' intellectual acumen.</h3>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img id="programmer" src="./assets/shine-young-man-works-as-a-programmer-remotely-from-home-1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container text-center">
+            <div class="row gx-5 gy-5">
+                <div class="col-sm-6">
+                    <img id="vrgaming" src="./assets/vrgaming.png" alt="">
+
+                </div>
+                <div class="col-sm-6">
+                    <div>
+                        <br><br>
+                        <div class="main-div main-div2">
+                            <h1 class="round">Round 4</h1>
+                        </div>
+                        <h2 style="color:white;">VR GAMING</h2>
+                        <h3 style="color:white;">Welcome to round 4 the era of <br> VIRTUAL REALITY.<br> Be Ready for Virtual Games.</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+
+        <!-- TODO -->
+        <!-- <button class="register2">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" style="color:white;">Pre-Register</a> 
+           </button>-->
+        <br><br><div style="display: flex; justify-content: center; align-items: center;"><hr style="background-color: white; height: 4px; width: 80%; justify-content: center; border-radius: 50%;"></div><br> 
+
+        <!-- TODO -->
+        <!--sponsors ka div-->
+        <!-- <div id="sponsor us">
+            <div class="sponsor">
+                <h1 style="text-decoration: underline;">SPONSORS</h1>
+                <br>
+                <br>
+                <div>
+                    <img src="assets/bookchor logo.jpeg" alt="bookchor.com " width=300px>
+                    <br><br><br>
+                    <div>
+                        <a href="mailto: itsa@sfit.ac.in" style="color:grey;">
+                            <h2 style="line-height:20px ;font-style:inherit;">INTERESTED IN SPONSORING ITSA </h2><br>
+                            <h4> Send us an inquiry at <br> itsa@sfit.ac.in
+                            </h4>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div> -->
+        <div id="sponsor us">
+            <div class="sponsor">
+                <h1 style="text-decoration: underline;">WHY SPONSOR?</h1>
+                <br>
+                <br>
+                <div style="color: rgb(220, 220, 220); border: 3rem solid black;">                     
+                    <h3 style="text-align: left;">Sponsoring the ITSA X MOSAIC 2023 offers your organization a unique opportunity to:</h3>
+                    <h4 style="text-align: left;"><ol>
+                        <li><h5>Gain Exposure: Reach a diverse audience of students, tech enthusiasts, and potential customers from various colleges across Mumbai.</h5></li>
+
+                        <li><h5>Brand Visibility: Showcase your brand's commitment to technology, innovation, and education among a highly engaged audience.</h5></li>
+
+                        <li><h5>Networking: Interact with students, faculty, and industry professionals, forging valuable connections and partnerships.</h5></li>
+
+                        <li><h5>Positioning: Associate your brand with cutting-edge technology and the excitement of F1 racing, reinforcing your status as a forward-thinking company.</h5></li>
+
+                    </ol></h4>
+                    <br><br><br>
+                    <div>
+                        <a href="mailto: itsa@sfit.ac.in" style="color:rgb(164, 164, 164);">
+                            <h2 style="line-height:20px ;font-style:inherit;">INTERESTED IN SPONSORING ITSA </h2><br>
+                            <h4> Send us an inquiry at <br> itsa@sfit.ac.in
+                            </h4>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--footer-->
+
+        <footer class="footer-distributed" id="contact" style="background-color: rgb(24,48,82); color:white;">
+            <div class="footer-left" style="color: white;">
+                <h3 style="color:white;">ITSA <span><img src="./assets/logo-modified.png" width="40px" id="logo" alt=""></span></h3>
+                <p class="footer-links">
+                    <a href="#" class="link-1" style="color:white;">Home</a>
+
+                </p>
+
+                <p class="footer-company-name" style="color:white;">ITSA © <span id="date" style="color:white;">2023</span></p>
+                <p style='margin-left:0px' style="color:white;">website by <span><a href="https://www.linkedin.com/in/sasank-paria-4894b2149/" target="_blank">Shasank</a></span> & <span><a href="https://www.linkedin.com/in/rahulbiya/" target="_blank">RAHUL</a></span> </p>
+
+
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p style="color:white;"><span style="color:white;">St. Francis Institute of Technology,</span> Borivali West, Mumbai, 400103</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p style="color:white;">Krishnal: +91 7028118266 <br>Bibin: +91 9969289034</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p style="color:white;"><a href="mailto:itsa@sfit.ac.in">itsa@sfit.ac.in</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about" style="color:white;">
+                    <span style="color:white;">About ITSA</span> Our mission is to provide a platform to learners and technical enthusiasts alike to explore leading technologies and promote Student’s engagement in their holistic development and learning.
+                </p>
+                <div class="footer-icons">
+                    <a href="https://instagram.com/sfit_itsa?igshid=19hn3d3x02n06"><i class="fa fa-instagram" > </i></a>
+                    <a href="https://facebook.com/itsasfit"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/information-technology-student-association-sfit/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/itsa_sfit"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCNz7semp-QqV1MjvueyhOeQ"><i class="fa fa-youtube"></i></a>
+                    <a href="mailto:itsa@sfit.ac.in"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            <a class="scroll-link top-link" href="#">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </footer>
+
+
+
+
+        <!--this is all bootstrap ka cdn-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+        <audio id="aud" style="display: none;" src="./assets/orchestra.mp3">
+      
+
+</body>
+
+</html>

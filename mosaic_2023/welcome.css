@@ -1,0 +1,35 @@
+#cave{
+    position: relative;
+    font-size: 1em ;
+    margin-top: 28em;
+    color:white;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+#welcome {
+    /* padding: 100px; */
+    text-align: center;
+    min-width: 300px;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden;
+    margin-top: -5em;
+    /* fixes flashing */
+}
+
+
+/* 
+
+#cave {
+    /* padding: 100px; */
+    text-align: center;
+    min-width: 300px;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden;
+    z-index: 10;
+    margin-top: -5em;
+    /* fixes flashing */
+} */
