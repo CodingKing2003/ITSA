@@ -237,9 +237,9 @@
             <div class="card-body">
             <div class="row row-content">
             <div class="col">
-                <div id="mycarousel" class="carousel slide container" data-ride="carousel" data-interval="2000">
+                <div id="mycarousel" class="carousel slide container" data-ride="carousel" data-interval="5000">
                     <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" style="background-image: linear-gradient(rgb(58, 5, 102), black ); color: aliceblue; border-radius: 10px; border: 7px solid black; overflow: hidden;">
+                        <div class="carousel-item" style="background-image: linear-gradient(rgb(58, 5, 102), black ); color: aliceblue; border-radius: 10px; border: 7px solid black; overflow: hidden;">
                             <a href="./mosaic_2023/index.html" style="color: white; text-decoration: none;">
                                 <div class="col-12 col-sm"> 
                                     <h2 style="font-weight: 600;">ITSA X MOSAIC 2023</h2>
@@ -247,10 +247,10 @@
                                 <br>
                                 <div class="row row-content">
                                     <div class="col-4 col-sm">
-                                        <img style="border-radius: 10px;" src="./2023-2024_events/img/farewell.JPG" class="img-slide" alt="">
+                                        <img style="border-radius: 10px;" src="./mosaic_2023/assets/abstract-gaming.gif" class="img-slide" alt="">
                                     </div>
                                     <div class="col-sm-8 align-self-center d-none d-sm-block">
-                                        <p id="description" align="left"><span>*</span>Welcome event for ITSA members included a memorable farewell for the previous heads along with Ms. Grinal Dsouza and a wonderful beginning for the newly joined executives and appointed heads.
+                                        <p id="description" align="left"><span>*</span>The Mosaic is a flagship event of the SFIT's Technical Fest, In celebration of our college's remarkable 25-year journey, we have chosen a theme that embodies precision, speed, and technological advancement – the world of Formula 1 racing, bringing together students from colleges all over Mumbai.
                                         <br><br></p>
                                         <link rel="stylesheet" href="./mosaic_2023/stage.css">
                                         <div class="main-div main-div2">
@@ -295,7 +295,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item active">
                             <div class="col-12 col-sm"> 
                                  <h3>Ethics Seminar & Poster making competition</h3>
                             </div>
