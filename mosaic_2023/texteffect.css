@@ -64,6 +64,9 @@ p {
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
   }
+  .event-title {
+    font-size: 300%;
+}
   
   @-webkit-keyframes glow {
     from {
