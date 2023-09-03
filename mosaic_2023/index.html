@@ -182,7 +182,8 @@
             </div>
             <!--typing effect of text-->
             <div id="cave">
-                <span class="welcome glow">WELCOME TO TECH CAVE</span>
+                <span class="welcome glow">WELCOME TO</span><br>
+                <span class="welcome glow event-title">FORZA INFERNOX GP</span>
             </div>
 
             <div id="retrobg-ground">
@@ -295,10 +296,32 @@
 
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 race-car">
                     <br><br><br>
-                    <img src="./assets/abstract-gaming.gif" alt="">
+                    <img id="race-car" src="./assets/race-car.png" alt="">
+                    <script>
+                        // Define the target element you want to observe
+                        const targetElement = document.getElementById('race-car');
 
+                        // Create a new Intersection Observer
+                        const observer = new IntersectionObserver((entries, observer) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting) {
+                            // The target element has entered the viewport
+                            // You can trigger your desired action here
+                            console.log('Element entered the viewport!');
+                            targetElement.classList.add("active")
+                            
+                            // Stop observing once the element is in the viewport (optional)
+                            observer.unobserve(targetElement);
+                            }
+                        });
+                        });
+
+                        // Start observing the target element
+                        observer.observe(targetElement);
+
+                    </script>
 
                 </div>
             </div>
@@ -308,7 +331,7 @@
             <div class="row gx-5 gy-5">
                 <div class="col-sm-6">
                     <br><br><br>
-                    <img style="margin-right: 20%;" id="subway" src="./assets/subwaysurfer.png" alt="">
+                    <img style="margin-right: 20%;" id="subway" src="./assets/forzaRacing.png" alt="">
 
                 </div>
                 <div class="col-sm-6">
