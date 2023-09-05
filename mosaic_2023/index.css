@@ -29,6 +29,59 @@ body {
 
 /* ............................................................... */
 
+.background-img {
+    background-image: url("./assets/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
+.background-img nav {
+    background-color: transparent !important;
+}
+.bg-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#toasts {
+    z-index: 1000;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.511);
+} 
+.toast-container-bg {
+    background-color: white;
+}
+#toasts .toast-head {
+    display: flex;
+    justify-content: space-between;
+}
+.hideToast {
+    display: none;
+    visibility: hidden;
+    
+}
+#toasts .toast-head p {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#toasts form div input {
+    width: 100%;
+}
+#toasts form label {
+    width: 100%;
+    display: block;
+}
 
 /* ............................................................... */
 

@@ -9,27 +9,17 @@
     <title>ITSA X MOSAIC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <script>
-        document.querySelector("#retrobg-sun").onClick = () => {
-            document.querySelector("#retrobg").classList.toggle("retrobg-shutdown");
-        };
-    </script>
-
-    <script>
-        var sample = document.getElementById('aud');
-        sample.play();
-    </script>
 
     <link rel="stylesheet" href="texteffect.css">
-    <script src="timer.js"></script>
-    <link rel="stylesheet" href="timer.css">
-    <link rel="stylesheet" href="typingeffect.css">
-    <script src="typingeffect.js"></script>
+    <!-- <script src="timer.js"></script> -->
+    <!-- <link rel="stylesheet" href="timer.css"> -->
+    <!-- <link rel="stylesheet" href="typingeffect.css"> -->
+    <!-- <script src="typingeffect.js"></script> -->
     <link rel="stylesheet" href="floatinganimation.css">
-    <link rel="stylesheet" href="vrgaming.css">
-    <link rel="stylesheet" href="programmer.css">
+    <!-- <link rel="stylesheet" href="vrgaming.css"> -->
+    <!-- <link rel="stylesheet" href="programmer.css"> -->
     <link rel="stylesheet" href="stage.css">
-    <script src="audio.js"></script>
+    <!-- <script src="audio.js"></script> -->
     <link rel="stylesheet" href="./button.css">
     <link rel="stylesheet" href="./downregistrationbutton.css">
     <link rel="stylesheet" href="./welcome.css">
@@ -48,9 +38,11 @@
 <body style="background-color: rgb(10, 0, 10); overflow-x: hidden;" onload="sample()">
     <div id="bodysize" style="height: 2000px; width: 100%;">
 
-        <!--navbar-->
+        <!--background animation-->
 
-        <nav class="navbar navbar-expand-lg " style="background-color: rgb(34,17,68);">
+        <div class="background-img">
+            
+            <nav class="navbar navbar-expand-lg " style="background-color: rgb(34,17,68);">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 200%; color:rgb(255, 255, 255);">
                     <img src="./assets/logo-modified.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> ITSA X MOSAIC <img src="./assets/sfitlogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
@@ -77,197 +69,34 @@
             </div>
         </nav>
 
-        <!--background animation-->
 
-        <div id="retrobg">
-            <div id="retrobg-sky" style="z-index: 0;">
-
-                <div id="retrobg-stars">
-                    <span><p id="timer" style="color: white;"></p></span>
-                    <div class="retrobg-star" style="left:  5%; top: 55%; transform: scale( 2 );"></div>
-                    <div class="retrobg-star" style="left:  7%; top:  5%; transform: scale( 2 );"></div>
-                    <div class="retrobg-star" style="left: 10%; top: 45%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 12%; top: 35%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 15%; top: 39%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 20%; top: 10%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 35%; top: 50%; transform: scale( 2 );"></div>
-                    <div class="retrobg-star" style="left: 40%; top: 16%; transform: scale( 2 );"></div>
-                    <div class="retrobg-star" style="left: 43%; top: 28%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 45%; top: 30%; transform: scale( 3 );"></div>
-                    <div class="retrobg-star" style="left: 55%; top: 18%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 60%; top: 23%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 62%; top: 44%; transform: scale( 2 );"></div>
-                    <div class="retrobg-star" style="left: 67%; top: 27%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 75%; top: 10%; transform: scale( 2 );"></div>
-                    <div class="retrobg-star" style="left: 80%; top: 25%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 83%; top: 57%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 90%; top: 29%; transform: scale( 2 );"></div>
-                    <div class="retrobg-star" style="left: 95%; top:  5%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 96%; top: 72%; transform: scale( 1 );"></div>
-                    <div class="retrobg-star" style="left: 98%; top: 70%; transform: scale( 3 );"></div>
-                </div>
-                <div id="retrobg-sunWrap">
-                    <div id="retrobg-sun"></div>
-                </div>
-
-
-                <div id="retrobg-mountains">
-                    <div id="retrobg-mountains-left" class="retrobg-mountain"></div>
-                    <div id="retrobg-mountains-right" class="retrobg-mountain"></div>
-                    <!--college name and it department-->
-
-                    <div id="welcome">
-                        <p style="text-align: center; align-items: center;">
-                            <span><h1 style="display: inline;" class="glow">SFIT</h1></span>
-                            <span class="glow">ITSA</span>
-                            <span><h1 style="" class="glow">IT DEPARTMENT presents</h1></span>
-                        </p>
-                    </div>
-
-                    <div id="box">
-
-
-                        <p id="flashlight">
-
-                            <span id="flash">MOSAIC</span>
-
-                            <span class="glow">2023</span>
-                            <!-- <h1 class="glow">GLOWING TEXT</h1> -->
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <!-- <div id="retrobg-cityWrap">
-                <div id="retrobg-city">
-                    <div style="left:  4.0%; height: 20%; width: 3.0%;" class="retrobg-building"></div>
-                    <div style="left:  6.0%; height: 50%; width: 1.5%;" class="retrobg-building"></div>
-                    <div style="left:  8.0%; height: 25%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 12.0%; height: 30%; width: 3.0%;" class="retrobg-building"></div>
-                    <div style="left: 13.0%; height: 55%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 17.0%; height: 20%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 18.5%; height: 70%; width: 1.5%;" class="retrobg-building"></div>
-                    <div style="left: 20.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 21.5%; height: 80%; width: 2.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 25.0%; height: 60%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 28.0%; height: 40%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 30.0%; height: 70%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 35.0%; height: 65%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 38.0%; height: 40%; width: 3.0%;" class="retrobg-building"></div>
-                    <div style="left: 42.0%; height: 60%; width: 2.0%;" class="retrobg-building"></div>
-                    <div style="left: 43.0%; height: 85%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 45.0%; height: 40%; width: 3.0%;" class="retrobg-building"></div>
-                    <div style="left: 48.0%; height: 25%; width: 3.0%;" class="retrobg-building"></div>
-                    <div style="left: 50.0%; height: 80%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 52.0%; height: 32%; width: 5.0%;" class="retrobg-building"></div>
-                    <div style="left: 55.0%; height: 55%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 58.0%; height: 45%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 61.0%; height: 90%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 66.0%; height: 99%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 69.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 73.5%; height: 90%; width: 2.0%;" class="retrobg-building"></div>
-                    <div style="left: 72.0%; height: 70%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 75.0%; height: 60%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 80.0%; height: 40%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 83.0%; height: 70%; width: 4.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 87.0%; height: 60%; width: 3.0%;" class="retrobg-building retrobg-antenna"></div>
-                    <div style="left: 93.0%; height: 50%; width: 3.0%;" class="retrobg-building"></div>
-                    <div style="left: 91.0%; height: 30%; width: 4.0%;" class="retrobg-building"></div>
-                    <div style="left: 94.0%; height: 20%; width: 3.0%;" class="retrobg-building"></div>
-                    <div style="left: 98.0%; height: 35%; width: 2.0%;" class="retrobg-building"></div>
-                </div>
-            </div> -->
+        <div class="bg-content">
+            <div id="welcome">
+                <p style="text-align: center; align-items: center;">
+                    <span><h1 style="display: inline;" class="glow">SFIT</h1></span>
+                    <span class="glow">ITSA</span>
+                    <span><h1 class="glow">IT DEPARTMENT presents</h1></span>
+                </p>
             </div>
-            <!--typing effect of text-->
-            <div id="cave">
-                <span class="welcome glow">WELCOME TO</span><br>
-                <span class="welcome glow event-title">FORZA INFERNOX GP</span>
+            <div id="box">
+                <p id="flashlight">
+                    <span id="flash">MOSAIC</span>
+                    <span id="flash">2023</span>
+                    <!-- <h1 class="glow">GLOWING TEXT</h1> -->
+                </p>
             </div>
+            <span class="welcome glow">WELCOME TO</span>
+            <span class="welcome glow event-title">FORZA INFERNOX GP</span>
 
-            <div id="retrobg-ground">
 
+            <!-- Registration -->
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLScRhYQIg4fBx8JNqDWWIJ29Cd8lm4kB76e3uENC7VThwncKNA/viewform" method="get">
+                <button type="submit" class="btn btn-outline-light welcome glow" id="liveToastBtn">Register Now</button>
+            </form>
 
-
-                <div id="retrobg-linesWrap">
-
-                    <div id="retrobg-lines">
-                        <div id="retrobg-vlines">
-
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                            <div class="retrobg-vline"></div>
-                        </div>
-                        <div id="retrobg-hlines">
-                            <div class="retrobg-hline"></div>
-                            <div class="retrobg-hline"></div>
-                            <div class="retrobg-hline"></div>
-                            <div class="retrobg-hline"></div>
-                            <div class="retrobg-hline"></div>
-                            <div class="retrobg-hline"></div>
-                            <div class="retrobg-hline"></div>
-                            <div class="retrobg-hline"></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="retrobg-groundShadow"></div>
-            </div>
-            <br>
-
-            <!--end of bg effect-->
         </div>
-
+        
+        </div>
 
         <!--grid for events list-->
         <div class="textforevents" id="events">
@@ -448,7 +277,6 @@
 
         </div>
 
-
         <!--footer-->
 
         <footer class="footer-distributed" id="contact" style="background-color: rgb(24,48,82); color:white;">
@@ -505,7 +333,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
         <audio id="aud" style="display: none;" src="./assets/orchestra.mp3">
-      
+
 
 </body>
 
