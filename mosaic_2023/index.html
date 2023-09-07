@@ -1,132 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITSA X MOSAIC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-
     <link rel="stylesheet" href="texteffect.css">
-    <!-- <script src="timer.js"></script> -->
-    <!-- <link rel="stylesheet" href="timer.css"> -->
-    <!-- <link rel="stylesheet" href="typingeffect.css"> -->
-    <!-- <script src="typingeffect.js"></script> -->
     <link rel="stylesheet" href="floatinganimation.css">
-    <!-- <link rel="stylesheet" href="vrgaming.css"> -->
-    <!-- <link rel="stylesheet" href="programmer.css"> -->
-    <link rel="stylesheet" href="stage.css">
-    <!-- <script src="audio.js"></script> -->
     <link rel="stylesheet" href="./button.css">
     <link rel="stylesheet" href="./downregistrationbutton.css">
     <link rel="stylesheet" href="./welcome.css">
-
-
-    <!--footer-->
     <link rel="stylesheet" href="./footer/lightslider.css">
     <link rel="stylesheet" href="./footer/styles.css">
+    <link rel="stylesheet" href="./stage.css">
     <script src="./footer/main.js"></script>
     <script src="./footer/LightSlider.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 </head>
 
 <body style="background-color: rgb(10, 0, 10); overflow-x: hidden;" onload="sample()">
     <div id="bodysize" style="height: 2000px; width: 100%;">
-
-        <!--background animation-->
-
         <div class="background-img">
-            
             <nav class="navbar navbar-expand-lg " style="background-color: rgb(34,17,68);">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 200%; color:rgb(255, 255, 255);">
-                    <img src="./assets/logo-modified.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> ITSA X MOSAIC <img src="./assets/sfitlogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav" style="margin-left: 60%;">
-                        <li class="nav-item">
-                            <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="#retrobg" target="_blank">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#events" style="color:white; font-family: sans-serif; font-weight: bold;">events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="#sponsor us">sponsors</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="https://itsa.sfit.ac.in/" target="_blank">about us</a>
-                        </li>
-                    </ul>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; color:rgb(255, 255, 255);">
+                        <img src="./assets/logo-modified.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> ITSA X MOSAIC <img src="./assets/sfitlogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav" style="margin-left: 60%;">
+                            <li class="nav-item">
+                                <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="#retrobg" target="_blank">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#events" style="color:white; font-family: sans-serif; font-weight: bold;">events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="#sponsor us">sponsors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color:white; font-family: sans-serif; font-weight: bold;" href="https://itsa.sfit.ac.in/" target="_blank">about us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+            <div class="bg-content">
+                <div id="welcome">
+                    <p style="text-align: center; align-items: center;">
+                        <span><h1 style="display: inline;" class="glow">SFIT</h1></span>
+                        <span class="glow">ITSA</span>
+                        <span><h1 class="glow">IT DEPARTMENT presents</h1></span>
+                    </p>
+                </div>
+                <div id="box">
+                    <p id="flashlight">
+                        <span id="flash">MOSAIC 2023</span>
+                    </p>
+                </div>
+                <span class="welcome glow">WELCOME TO</span>
+                <span class="welcome glow event-title">FORZA INFERNOX GP</span>
+                <!-- Registration -->
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLScRhYQIg4fBx8JNqDWWIJ29Cd8lm4kB76e3uENC7VThwncKNA/viewform" method="get">
+                    <button type="submit" class="btn btn-outline-light welcome glow" id="liveToastBtn">Register Now</button>
+                </form>
             </div>
-        </nav>
-
-
-        <div class="bg-content">
-            <div id="welcome">
-                <p style="text-align: center; align-items: center;">
-                    <span><h1 style="display: inline;" class="glow">SFIT</h1></span>
-                    <span class="glow">ITSA</span>
-                    <span><h1 class="glow">IT DEPARTMENT presents</h1></span>
-                </p>
-            </div>
-            <div id="box">
-                <p id="flashlight">
-                    <span id="flash">MOSAIC</span>
-                    <span id="flash">2023</span>
-                    <!-- <h1 class="glow">GLOWING TEXT</h1> -->
-                </p>
-            </div>
-            <span class="welcome glow">WELCOME TO</span>
-            <span class="welcome glow event-title">FORZA INFERNOX GP</span>
-
-
-            <!-- Registration -->
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLScRhYQIg4fBx8JNqDWWIJ29Cd8lm4kB76e3uENC7VThwncKNA/viewform" method="get">
-                <button type="submit" class="btn btn-outline-light welcome glow" id="liveToastBtn">Register Now</button>
-            </form>
-
         </div>
-        
-        </div>
-
         <!--grid for events list-->
+        
         <div class="textforevents" id="events">
             <h1>EVENTS ORGANIZED BY ITSA</h1>
         </div>
-
         <!-- TODO -->
         <!--registration button-->
         <!-- <button class="register">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" style="color:white;">Pre-Register</a> 
-   </button> -->
-
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" style="color:white;">Pre-Register</a> 
+        </button> -->
 
 
         <div class="container text-center">
-            <div class="row gx-5 gy-5">
-                <div class="col-sm-6">
-
+            <div class="row inv">
+                <div class="col-md-6">
                     <div>
-                        <br><br><br>
                         <div class="main-div main-div2">
                             <h1 class="round">RC Car Racing</h1>
                         </div>
                         <h2 style="color:white;">( F1-Themed ) <br></h2>
-                        <h3 style="color:white;">A meticulously crafted racecourse, adorned with F1-inspired elements and design, serving as the battleground for RC car enthusiasts from across Mumbai. </h3>
-
+                        <h3 style="color:white;">A meticulously crafted racecourse, adorned with F1-inspired elements and design, serving as the battleground for RC car enthusiasts from across Mumbai.</h3>
                     </div>
                 </div>
-                <div class="col-sm-6 race-car">
-                    <br><br><br>
+                <div class="col-md-6 race-car">
                     <img id="race-car" src="./assets/race-car.png" alt="">
                     <script>
                         // Define the target element you want to observe
@@ -134,62 +101,48 @@
 
                         // Create a new Intersection Observer
                         const observer = new IntersectionObserver((entries, observer) => {
-                        entries.forEach((entry) => {
-                            if (entry.isIntersecting) {
-                            // The target element has entered the viewport
-                            // You can trigger your desired action here
-                            console.log('Element entered the viewport!');
-                            targetElement.classList.add("active")
-                            
-                            // Stop observing once the element is in the viewport (optional)
-                            observer.unobserve(targetElement);
-                            }
-                        });
+                            entries.forEach((entry) => {
+                                if (entry.isIntersecting) {
+                                    // The target element has entered the viewport
+                                    // You can trigger your desired action here
+                                    console.log('Element entered the viewport!');
+                                    targetElement.classList.add("active")
+                                    // Stop observing once the element is in the viewport (optional)
+                                    observer.unobserve(targetElement);
+                                }
+                            });
                         });
 
                         // Start observing the target element
                         observer.observe(targetElement);
-
                     </script>
-
                 </div>
             </div>
         </div>
-
         <div class="container text-center">
-            <div class="row gx-5 gy-5">
+            <div class="row">
                 <div class="col-sm-6">
-                    <br><br><br>
-                    <img style="margin-right: 20%;" id="subway" src="./assets/forzaRacing.png" alt="">
-
+                    <img id="subway" src="./assets/forzaRacing.png" alt="">
                 </div>
                 <div class="col-sm-6">
                     <div>
-                        <br><br><br><br><br>
                         <div class="main-div main-div2">
                             <h1 class="round">Forza Racing</h1>
                         </div>
-                        <!-- <h2 style="color:white;"> </h2> -->
                         <h3 style="color:white;">The immersive combination of Logitech's precision and the thrill of Forza will redefine the concept of virtual racing.</h3>
-
                     </div>
-
                 </div>
             </div>
         </div>
-
         <div class="container text-center">
-            <div class="row gx-5 gy-5">
+            <div class="row inv">
                 <div class="col-sm-6">
-
                     <div>
                         <br>
                         <div class="main-div main-div2">
                             <h1 class="round">Intellectual Prowess</h1>
                         </div>
-                        <!-- <h2 style="color:white;"> (CODING CHALLENGE)</h2> -->
                         <h3 style="color:white;">These challenges, rooted in the F1 universe or coding concepts, will test participants' intellectual acumen.</h3>
-
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -197,32 +150,10 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div class="container text-center">
-            <div class="row gx-5 gy-5">
-                <div class="col-sm-6">
-                    <img id="vrgaming" src="./assets/vrgaming.png" alt="">
-
-                </div>
-                <div class="col-sm-6">
-                    <div>
-                        <br><br>
-                        <div class="main-div main-div2">
-                            <h1 class="round">Round 4</h1>
-                        </div>
-                        <h2 style="color:white;">VR GAMING</h2>
-                        <h3 style="color:white;">Welcome to round 4 the era of <br> VIRTUAL REALITY.<br> Be Ready for Virtual Games.</h3>
-                    </div>
-
-                </div>
-            </div>
-        </div> -->
-
-        <!-- TODO -->
-        <!-- <button class="register2">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkSC7Xsv9EYwlDCmnXEexmnmePzns_g1yZpJCxl7w4QYzm-A/viewform?usp=sf_link" target="_blank" style="color:white;">Pre-Register</a> 
-           </button>-->
-        <br><br><div style="display: flex; justify-content: center; align-items: center;"><hr style="background-color: white; height: 4px; width: 80%; justify-content: center; border-radius: 50%;"></div><br> 
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <hr style="background-color: white; height: 4px; width: 80%; justify-content: center; border-radius: 50%;">
+        </div>
+        <br> 
 
         <!-- TODO -->
         <!--sponsors ka div-->
@@ -241,56 +172,44 @@
                             </h4>
                         </a>
                     </div>
-
                 </div>
             </div>
-
         </div> -->
         <div id="sponsor us">
             <div class="sponsor">
-                <h1 style="text-decoration: underline;">WHY SPONSOR?</h1>
-                <br>
-                <br>
-                <div style="color: rgb(220, 220, 220); border: 3rem solid black;">                     
+                <h1 class="why-sponsor" style="text-decoration: underline;">WHY SPONSOR?</h1>
+                <div class="sponsor-container" style="color: rgb(220, 220, 220);">                     
                     <h3 style="text-align: left;">Sponsoring the ITSA X MOSAIC 2023 offers your organization a unique opportunity to:</h3>
-                    <h4 style="text-align: left;"><ol>
-                        <li><h5>Gain Exposure: Reach a diverse audience of students, tech enthusiasts, and potential customers from various colleges across Mumbai.</h5></li>
-
-                        <li><h5>Brand Visibility: Showcase your brand's commitment to technology, innovation, and education among a highly engaged audience.</h5></li>
-
-                        <li><h5>Networking: Interact with students, faculty, and industry professionals, forging valuable connections and partnerships.</h5></li>
-
-                        <li><h5>Positioning: Associate your brand with cutting-edge technology and the excitement of F1 racing, reinforcing your status as a forward-thinking company.</h5></li>
-
-                    </ol></h4>
-                    <br><br><br>
+                    <h4 style="text-align: left;">
+                        <ol>
+                            <li><h5>Gain Exposure: Reach a diverse audience of students, tech enthusiasts, and potential customers from various colleges across Mumbai.</h5></li>
+                            <li><h5>Brand Visibility: Showcase your brand's commitment to technology, innovation, and education among a highly engaged audience.</h5></li>
+                            <li><h5>Networking: Interact with students, faculty, and industry professionals, forging valuable connections and partnerships.</h5></li>
+                            <li><h5>Positioning: Associate your brand with cutting-edge technology and the excitement of F1 racing, reinforcing your status as a forward-thinking company.</h5></li>
+                        </ol>
+                    </h4>
+                    <br><br>
                     <div>
-                        <a href="mailto: itsa@sfit.ac.in" style="color:rgb(164, 164, 164);">
-                            <h2 style="line-height:20px ;font-style:inherit;">INTERESTED IN SPONSORING ITSA </h2><br>
+                        <a class="sponsor-link" href="mailto: itsa@sfit.ac.in" style="color:rgb(164, 164, 164);">
+                            <h2 style="font-style:inherit;">INTERESTED IN SPONSORING ITSA </h2><br>
                             <h4> Send us an inquiry at <br> itsa@sfit.ac.in
                             </h4>
                         </a>
                     </div>
-
                 </div>
             </div>
-
         </div>
+        
 
         <!--footer-->
-
         <footer class="footer-distributed" id="contact" style="background-color: rgb(24,48,82); color:white;">
             <div class="footer-left" style="color: white;">
                 <h3 style="color:white;">ITSA <span><img src="./assets/logo-modified.png" width="40px" id="logo" alt=""></span></h3>
                 <p class="footer-links">
                     <a href="#" class="link-1" style="color:white;">Home</a>
-
                 </p>
-
                 <p class="footer-company-name" style="color:white;">ITSA © <span id="date" style="color:white;">2023</span></p>
                 <p style='margin-left:0px' style="color:white;">website by <span><a href="https://www.linkedin.com/in/sasank-paria-4894b2149/" target="_blank">Shasank</a></span> & <span><a href="https://www.linkedin.com/in/rahulbiya/" target="_blank">RAHUL</a></span> </p>
-
-
             </div>
             <div class="footer-center">
                 <div>
@@ -331,10 +250,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-
         <audio id="aud" style="display: none;" src="./assets/orchestra.mp3">
-
-
+    </div>
 </body>
-
 </html>

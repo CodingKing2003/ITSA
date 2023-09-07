@@ -1,5 +1,5 @@
 #subway{
-	width: 30rem;
+	max-width: 100%;
   transform: translatey(0px);
 	animation: float 3s ease-in-out infinite;
 

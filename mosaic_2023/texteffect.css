@@ -5,16 +5,29 @@ p {
 
 /* box ------------------------------------------------------ */
 
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+
 #box {
     /* padding: 100px; */
     text-align: center;
-    min-width: 500px;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: bold;
+    margin: 1rem 0;
     -webkit-backface-visibility: hidden;
     /* fixes flashing */
 }
-
+@media screen and (max-width: 720px) {
+  #box {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
 
 /* flashlight ------------------------------------------------------ */
 
@@ -59,13 +72,14 @@ p {
 
 
 .glow , #timer ,.typed-out  {
-    font-size: 200%;
+    font-size: 170%;
     color: #fff;
     text-align: center;
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6;
   }
   .event-title {
-    font-size: 300%;
+    font-size: 250%;
+    line-height: 3.5rem;
 }
   
   /* @-webkit-keyframes glow {
