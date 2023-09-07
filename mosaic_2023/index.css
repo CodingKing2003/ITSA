@@ -11,21 +11,27 @@ body {
     position: absolute;
     left:90%;
   width: 37rem;
-  transform: scaleX(-1);
-  transition: 1s ease-out ;
-
-  
+     transform: scaleX(-1);
+     transition: 0.7s ease-in-out; 
+}
+.sponsor-container {
+    margin: 3rem;
+}
+#programmer {
+    width: 100%;
 }
 #race-car.active {
-    left: calc(-200px + 7vw);
+    left: calc(-200px + 9vw);
 
 }
-
+.container.text-center .row {
+    width: 100%;
+    margin-top: 1rem;
+}
 /* 
 #bgeffect {
     max-height: fit-content;
 } */
-
 
 /* ............................................................... */
 
@@ -378,4 +384,38 @@ body {
 .sponsor {
     text-align: center;
     color: white;
+}
+.why-sponsor {
+    margin-bottom: 3rem;
+}
+.sponsor-link {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    #race-car {
+        width: 30rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    #race-car {
+        
+    position:relative;
+    left:90%;
+  width: 20rem;
+
+    }
+    #race-car.active {
+        left: auto;
+        width: 100%;
+    }
+    .container.text-center .row.inv {
+        flex-direction: column-reverse;
+    }
+    .sponsor-container {
+        margin: 1rem;
+    }
+    .container.text-center .row {
+        margin: 2rem 0;
+    }
 }
