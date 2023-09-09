@@ -44,6 +44,11 @@ body {
 }
 .background-img nav {
     background-color: transparent !important;
+    padding: 0 3rem;
+}
+.about-itsa {
+    font-size: 1.5rem;
+    font-family:'Arial Narrow Bold', sans-serif ;
 }
 .bg-content {
     height: 100%;
@@ -357,14 +362,9 @@ body {
     font-size: 30em;
     letter-spacing: 5px;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
-    background-repeat: no-repeat;
-    background-size: 90%;
-    /* animation: animate 10s linear infinite; */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(3, 234, 255, 0);
+    /* background: linear-gradient(90deg, #000, #fff, #000); */
+    color: white;
     text-align: center;
-    filter: brightness(200%);
 }
 
 @keyframes animate {
@@ -417,5 +417,8 @@ body {
     }
     .container.text-center .row {
         margin: 2rem 0;
+    }
+    .background-img nav {
+        padding: 0;
     }
 }
