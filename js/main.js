@@ -22,6 +22,7 @@ $(".link-one").click(function() {
     $(".div-six").hide();
     $(".div-seven").hide();
     $(".div-eight").hide();
+    $(".div-nine").hide();
   });
 
 $(".link-two").click(function() {
@@ -33,6 +34,7 @@ $(".link-two").click(function() {
     $(".div-six").hide();
     $(".div-seven").hide();
     $(".div-eight").hide();
+    $(".div-nine").hide();
   });
 
 $(".link-three").click(function() {
@@ -44,6 +46,7 @@ $(".link-three").click(function() {
     $(".div-six").hide();
     $(".div-seven").hide();
     $(".div-eight").hide();
+    $(".div-nine").hide();
   });
 
 $(".link-four").click(function() {
@@ -55,6 +58,7 @@ $(".link-four").click(function() {
     $(".div-six").hide();
     $(".div-seven").hide();
     $(".div-eight").hide();
+    $(".div-nine").hide();
   });
 
 $(".link-five").click(function() {
@@ -66,6 +70,7 @@ $(".link-five").click(function() {
     $(".div-six").hide();
     $(".div-seven").hide();
     $(".div-eight").hide();
+    $(".div-nine").hide();
   });
 $(".link-six").click(function() {
     $(".div-six").show();
@@ -76,6 +81,7 @@ $(".link-six").click(function() {
     $(".div-five").hide();
     $(".div-seven").hide();
     $(".div-eight").hide();
+    $(".div-nine").hide();
   });
 $(".link-seven").click(function() {
     $(".div-seven").show();
@@ -86,6 +92,7 @@ $(".link-seven").click(function() {
     $(".div-five").hide();
     $(".div-six").hide();
     $(".div-eight").hide();
+    $(".div-nine").hide();
   });
 $(".link-eight").click(function() {
     $(".div-eight").show();
@@ -96,6 +103,18 @@ $(".link-eight").click(function() {
     $(".div-five").hide();
     $(".div-six").hide();
     $(".div-seven").hide();
+    $(".div-nine").hide();
+  });
+  $(".link-nine").click(function() {
+    $(".div-nine").show();
+    $(".div-one").hide();
+    $(".div-two").hide();
+    $(".div-three").hide();
+    $(".div-four").hide();
+    $(".div-five").hide();
+    $(".div-six").hide();
+    $(".div-seven").hide();
+    $(".div-eight").hide();
   });
 
   function changeDisplay1() {
@@ -118,4 +137,7 @@ $(".link-eight").click(function() {
   }
   function changeDisplay7() {
     document.getElementById("web").style.display = "flex";
+  }
+  function changeDisplay8() {
+    document.getElementById("logistics").style.display = "flex";
   }

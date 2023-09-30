@@ -519,6 +519,7 @@
             <li class="nav-item1"><a  href="#marketing" class="link-six" onclick="changeDisplay5()">Finance & Marketing</a></li>
             <li class="nav-item1"><a  href="#docs" class="link-seven"onclick="changeDisplay6()">Documentation</a></li>
             <li class="nav-item1"><a  href="#web" class="link-eight"onclick="changeDisplay7()">Webmaster</a></li>
+            <li class="nav-item1"><a  href="#logistics" class="link-nine"onclick="changeDisplay8()">Logistics</a></li>
         </ul>
     </div>
 
@@ -877,6 +878,40 @@
                         <div class="details">
                             <h4>Mr. Varad Khedekar</h4>
                             <a href="./roles.pdf" style="text-decoration:none;"><p>Web Master Executive</p></a>
+                        </div>
+                        
+                    </div>
+                </li>
+            </div>
+
+            <div class="div-nine" id="logistics">
+                <li class="item-a">
+                    <div class="box">
+                        <img src="./clg images/eze1.jpg" class="model" alt="">
+                        <div class="details">
+                            <h4>Mr. Ezekiel Louis</h4>
+                            <a href="./roles.pdf" style="text-decoration:none;"><p>Logistics Executive</p></a>
+                        </div>
+                        
+                    </div>
+                </li>
+            
+                <li class="item-a">
+                    <div class="box">
+                        <img src="./clg images/sahil.jpg" class="model" alt="">
+                        <div class="details">
+                            <h4>Mr. Sahil Topale</h4>
+                            <a href="./roles.pdf" style="text-decoration:none;"><p>Logistics Executive</p></a>
+                        </div>
+                        
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="box">
+                        <img src="./clg images/giridhar.JPG" class="model" alt="">
+                        <div class="details">
+                            <h4>Mr. Giridhar Jambunath</h4>
+                            <a href="./roles.pdf" style="text-decoration:none;"><p>Logistics Executivee</p></a>
                         </div>
                         
                     </div>
